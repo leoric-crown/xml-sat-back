@@ -9,7 +9,6 @@ const fileRoutes = require('./routes/files')
 
 module.exports = class ServerApp {
     constructor(config) {
-        console.log('constructing!', config)
         this.config = config
     }
     start() {
